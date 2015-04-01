@@ -25,7 +25,7 @@ The following configuration options are available within the main app.config fil
 * HighlightTermsInDocument - flag to indicate if the dictionary should be used to highlight terms within the document text (value: true|false)
 
 ## Acknowledgements
-This application was developed in part by the Marshfield Clinic Research Foundation (http://www.marshfieldresearch.org/) and the Northwestern University Feinberg School of Medicine.
+This application was developed in part by the Marshfield Clinic Research Foundation (http://www.marshfieldresearch.org/) and the Northwestern University Feinberg School of Medicine (http://www.feinberg.northwestern.edu/).
 
 This work was completed as part of the electronic Medical Records and Genomics (eMERGE) Network.  The eMERGE Network was initiated and funded by NHGRI, in conjunction with additional funding from NIGMS through the following grants: U01-HG-004610 (Group Health Cooperative/University of Washington); U01-HG-004608 (Marshfield Clinic Research Foundation and Vanderbilt University Medical Center); U01-HG-04599 (Mayo Clinic); U01HG004609 (Northwestern University); U01-HG-04603 (Vanderbilt University Medical Center, also serving as the Administrative Coordinating Center).
 
