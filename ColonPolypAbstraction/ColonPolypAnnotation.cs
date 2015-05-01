@@ -54,7 +54,7 @@ namespace ColonPolypAbstraction
                         currentDocument.Annotations.Add(DocumentPolypFindingsTag, findings);
                         if (fields.Length > 4)
                         {
-                            for (int index = 4; index < fields.Length; index += 4)
+                            for (int index = 4; index < fields.Length; index += 2)
                             {
                                 findings.Add(new Finding()
                                 {
