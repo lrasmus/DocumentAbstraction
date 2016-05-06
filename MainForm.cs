@@ -353,9 +353,9 @@ namespace MC.MCRF.NLP.DocumentAbstraction
               bool firstHighlight = true;
               foreach (var term in m_dictionary.Terms)
               {
-                  MatchCollection matches = Regex.Matches(rtbDocument.Text, 
-                    string.Format("\\b{0}\\b", Regex.Escape(term.Key), 
-                    RegexOptions.IgnoreCase | RegexOptions.Multiline));
+                  MatchCollection matches = Regex.Matches(rtbDocument.Text,
+                    string.Format("\\b{0}\\b", Regex.Escape(term.Key)),
+                    RegexOptions.IgnoreCase | RegexOptions.Multiline);
                   for (int index = 0; index < matches.Count; index++)
                   {
                       Match match = matches[index];
